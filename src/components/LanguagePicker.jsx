@@ -18,9 +18,13 @@ export default class LanguagePicker extends React.Component {
     super(props);
 
     this.state = {
-      language: localStorage.getItem('language') || 'en',
+      language: 'en',
       active: false
     };
+  }
+
+  componentDidMount() {
+    this.setState({ language: localStorage.getItem('language') || 'en' });
   }
 
   render() {
