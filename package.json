@@ -8,7 +8,17 @@
     "serve": "gatsby serve"
   },
   "dependencies": {
-    "gatsby": "^1.9.158",
-    "gatsby-link": "^1.6.34"
+    "babel-plugin-styled-components": "^1.5.0",
+    "gatsby": "1.9.145",
+    "gatsby-link": "^1.6.34",
+    "gatsby-plugin-accessibilityjs": "^1.0.2",
+    "gatsby-plugin-google-fonts": "^0.0.3",
+    "gatsby-plugin-offline": "^1.0.13",
+    "gatsby-plugin-react-helmet": "^2.0.4",
+    "gatsby-plugin-sitemap": "^1.2.11",
+    "gatsby-plugin-styled-components": "^2.0.5",
+    "gatsby-plugin-stylus": "^1.1.14",
+    "react-helmet": "^5.2.0",
+    "styled-components": "^3.1.4"
   }
 }
