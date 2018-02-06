@@ -63,17 +63,11 @@ const PageContent = styled.section`
 const NormalContent = styled.section`
   width: 60%;
   margin: 0 auto;
-  margin-top: ${margin.small};
   padding: ${padding.small};
   padding-top: 0;
   height: 80%;
   overflow-y: auto;
   ${mixins.scrollbar()};
-
-  @media (max-width: 1280px) {
-    width: 100%;
-    margin-top: ${margin.mini};
-  }
 
   @media (max-width: 768px) {
     display: block;
@@ -90,13 +84,12 @@ const NormalContent = styled.section`
 const Footer = styled.footer`
   position: absolute;
   right: 5%;
-  bottom: 80px;
+  bottom: 10px;
   color: ${colors.lavender};
   font-size: 1rem;
 
   @media (max-width: 768px) {
     font-size: 0.8rem;
-    bottom: 10px;
     background-color: ${colors.white};
   }
 `;
