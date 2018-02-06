@@ -30,13 +30,6 @@ const PageContent = styled.section`
   overflow: hidden;
 
   ${props =>
-    props.padding &&
-    css`
-      padding: ${padding.large};
-      padding-top: 0px;
-    `};
-
-  ${props =>
     props.scroll &&
     css`
       height: 70%;
@@ -55,9 +48,21 @@ const PageContent = styled.section`
 
   @media (max-width: 768px) {
     width: 100%;
-    padding: ${padding.mini};
+    padding: ${padding.superSmall};
     margin-top: ${margin.large};
   }
+
+  ${props =>
+    props.padding &&
+    css`
+      padding: ${padding.large};
+      padding-top: 0px;
+
+      @media (max-width: 768px) {
+        padding: ${padding.small};
+        padding-top: ${padding.mini};
+      }
+    `};
 `;
 
 const NormalContent = styled.section`
@@ -74,9 +79,8 @@ const NormalContent = styled.section`
     width: 100%;
     margin: ${margin.small} auto;
     color: ${colors.black};
-    padding: ${padding.small};
+    padding: ${padding.medium};
     padding-top: 0;
-    margin-bottom: 60px;
     height: 70%;
   }
 `;
@@ -89,8 +93,7 @@ const Footer = styled.footer`
   font-size: 1rem;
 
   @media (max-width: 768px) {
-    font-size: 0.8rem;
-    background-color: ${colors.white};
+    display: none;
   }
 `;
 

@@ -1,12 +1,6 @@
 import React from 'react';
 
-import {
-  Navigation,
-  NavList,
-  NavItem,
-  NavLink,
-  ExternalNavLink
-} from '../elements/navigation';
+import { Navigation, NavList, NavItem, NavLink } from '../elements/navigation';
 
 export default class Nav extends React.Component {
   render() {

@@ -4,6 +4,8 @@ import '../styles/reset.css';
 import '../styles/common.styl';
 
 import Logo from '../components/Logo';
+import Nav from '../components/Nav';
+import MobileNav from '../components/MobileNav';
 
 import {
   Container,
@@ -14,10 +16,9 @@ import {
 
 import { Footer } from '../elements/layout';
 
-import Nav from '../components/Nav';
-
 export default ({ children }) => (
   <Container>
+    <MobileNav />
     <TopColour />
     <BottomColour />
     <ChildrenContainer>

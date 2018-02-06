@@ -19,7 +19,7 @@ export default class Volunteer extends React.Component {
     return (
       <PageContainer>
         <PageVisual style={{ backgroundImage: `url('${appImage}')` }} />
-        <PageContent>
+        <PageContent padding scroll>
           <Form>
             <InputGroup>
               <Label htmlFor="name">Name</Label>

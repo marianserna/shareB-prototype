@@ -15,6 +15,7 @@ const Navigation = styled.nav`
   }
 
   @media (max-width: 768px) {
+    margin-top: 65px;
     margin-left: 5%;
   }
 `;

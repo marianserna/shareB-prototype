@@ -72,6 +72,11 @@ const HomeSpan = styled.span`
     font-size: 3rem;
     line-height: 3.5rem;
   }
+
+  @media (max-width: 768px) {
+    font-size: 2.5rem;
+    line-height: 3rem;
+  }
 `;
 
 const ButtonContainer = styled.section`
