@@ -26,6 +26,6 @@ export default ({ children }) => (
       <div>{children()}</div>
       <Logo />
     </ChildrenContainer>
-    <Footer>&copy; Copyright 2016 | ShareBibles</Footer>
+    <Footer>MS | &copy; Copyright 2018</Footer>
   </Container>
 );

@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'gatsby-link';
 import { LogoImage } from '../elements/logo';
-import logo from '../images/logo-lg.png';
+import logo from '../images/logo.svg';
 
 export default class Logo extends React.Component {
   render() {

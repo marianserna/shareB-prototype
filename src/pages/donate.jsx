@@ -14,11 +14,11 @@ export default class Donate extends React.Component {
         <PageContent padding>
           <h2>Built By Volunteers</h2>
           <p className="general">
-            Through the generosity of time, skills and gifting, this project is
-            becoming a reality. YWAM and FaithTech have partnered together to
-            serve the body of Christ by creating and developing free tool. With
-            your help we can continue to make it more powerful for kingdom
-            purposes.
+            Lorem ipsum dolor amet master cleanse locavore raw denim salvia,
+            gluten-free godard pour-over blog. Gastropub ugh williamsburg, pork
+            belly shabby chic selfies cornhole gluten-free selvage. Jean shorts
+            chillwave artisan gluten-free tattooed cloud bread sartorial hell of
+            freegan.
           </p>
           <p className="general centered">
             <DonateLink href="https://www.google.com" target="_blank">

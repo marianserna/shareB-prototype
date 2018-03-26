@@ -21,27 +21,26 @@ export default class Features extends React.Component {
           <TrackSection>
             <h2>TRACK</h2>
             <p className="general">
-              No longer will we miss homes due to a lack of information or
-              miscommunication.
+              Lorem ipsum dolor amet master cleanse locavore raw denim salvia
             </p>
             <div>
               <h3>01</h3>
               <hr />
               <p className="general">
-                What Bible was distributed, when was it distributed, and by who
+                amet master cleanse locavore?
               </p>
             </div>
 
             <div>
               <h3>02</h3>
               <hr />
-              <p className="general">Was the Bible actually received</p>
+              <p className="general">amet master cleanse locavore?</p>
             </div>
 
             <div>
               <h3>03</h3>
               <hr />
-              <p className="general">Notes, observations, and needs</p>
+              <p className="general">amet master cleanse locavore?</p>
             </div>
           </TrackSection>
 
@@ -52,21 +51,19 @@ export default class Features extends React.Component {
           <FollowUpSection>
             <h2>FOLLOW UP</h2>
             <p className="general">
-              Local believers (or short-term outreach teams) can follow-up with
-              the people around.
+              Lorem ipsum dolor amet master cleanse locavore raw denim salvia
             </p>
             <div>
               <h3>04</h3>
               <hr />
-              <p className="general">Did the person receive the prayer</p>
+              <p className="general">amet master cleanse locavore?</p>
             </div>
 
             <div>
               <h3>05</h3>
               <hr />
               <p className="general">
-                Did the person read the Bible and understand the gospel of Jesus
-                Christ
+                amet master cleanse locavore?
               </p>
             </div>
 
@@ -74,7 +71,7 @@ export default class Features extends React.Component {
               <h3>06</h3>
               <hr />
               <p className="general">
-                Did the person join a discipleship group and/or get baptized
+                amet master cleanse locavore?
               </p>
             </div>
           </FollowUpSection>
